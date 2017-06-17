@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+              "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <title>Previous Button</title>
+  <desc>Back-Up Button</desc>
+  <defs>
+    <path d="M 0 0 l 8 -3 l 0 6 z" color="gold" fill="none" id="border" stroke="gold"/>
+    <circle id="center" r="0.75" color="gold" fill="gold" stroke="gold"/>
+  <g id="arrow" transform="translate( 0, 0 )">
+    <use xlink:href="#border" transform="translate( 1.5, 6 )"/>
+  </g>
+  </defs>
+  <g transform="translate( 0, 0 )">
+    <use xlink:href="#arrow" transform="translate( 12, 12 ) rotate( 180 )" />
+  </g>
+</svg>

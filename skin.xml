@@ -1,0 +1,89 @@
+<!-- A minimalistic skin for people who don't have space on their desktop.
+
+     (c) 2003, Martin Grimme
+     Do with this skin what you want but keep the copyright message here.
+  -->
+
+
+<config>
+
+  <graphics>
+    <today value="today.png"/>
+    <nav-prev value="prev.png"/>
+    <nav-home value="home.png"/>
+    <nav-next value="next.png"/>
+    <!--
+    <images value="bg.png;
+      bg.png;
+      bg.png;
+      bg.png;
+      bg.png;
+      bg.png;
+      bg.png;
+      bg.png;
+      bg.png;
+      bg.png;
+      bg.png;
+      bg.png"/>
+      -->
+
+  </graphics>
+
+  <geometry>
+
+    <window>
+      <width value="120"/>
+      <height value="100"/>
+    </window>
+
+    <year>
+      <x value="92"/>
+      <y value="0"/>
+    </year>
+
+    <navigation>
+      <x value="80"/>
+      <y value="87"/>
+    </navigation>
+
+    <month>
+      <x value="2"/>
+      <y value="0"/>
+    </month>
+
+    <weekdays>
+      <x value="0"/>
+      <y value="20"/>
+      <width value="16"/>
+      <height value="10"/>
+      <hspacing value="1"/>
+    </weekdays>
+
+    <days>
+      <x value="0"/>
+      <y value="32"/>
+      <width value="16"/>
+      <height value="10"/>
+      <hspacing value="1"/>
+      <vspacing value="1"/>
+    </days>
+
+  </geometry>
+
+
+  <fonts>
+    <year value="Helvetica italic 8"/>
+    <month value="Helvetica 9"/>
+    <weekdays value="Helvetica 6"/>
+    <days value="Helvetica 5"/>
+  </fonts>
+
+  <!-- The colors to use. -->
+  <colors>
+    <year value="gold2"/>
+    <month value="gold2"/>
+    <weekdays value="gold2"/>
+    <days value="gold2"/>
+  </colors>
+
+</config>
